@@ -16,12 +16,14 @@
 }
 
 body {
-  color: white;
-  background: black;
-  font-family: "Poppins", sans-serif;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Poppins", serif;
+  
 }
 @media (max-width:600px){
   body{
-    back
+    background-color:white;
+    color:black;
   }
 }
